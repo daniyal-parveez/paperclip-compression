@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |s|
   s.name        = 'paperclip-compression'
-  s.version     = '1.0.1'
+  s.version     = '1.0.2'
   s.summary     = 'Image compression for Paperclip'
   s.description = 'JPEG and PNG compression for Paperclip gem'
   s.author      = 'İ. Emre Kutlu'
   s.email       = 'emrekutlu@gmail.com'
   s.files       = Dir['lib/**/*.rb'] + Dir['bin/**/*']
   s.bindir      = 'bin'
-  s.homepage    = 'http://github.com/emrekutlu/paperclip-compression'
+  s.homepage    = 'https://github.com/daniyal-parveez/paperclip-compression'
   s.license     = 'MIT'
 
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
